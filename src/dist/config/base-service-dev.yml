@@ -1,0 +1,10 @@
+logging:
+  level: INFO
+
+jsonPrettyPrint: true
+
+database:
+  driverClass: org.postgresql.Driver
+  user: sa
+  password:
+  url: jdbc:postgresql://localhost/base-dev
