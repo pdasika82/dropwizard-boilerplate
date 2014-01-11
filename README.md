@@ -39,4 +39,4 @@ You would find distribution package in `build/libs`. In order to run the service
 
 ## Database
 
-[PostgreSql](http://www.postgresql.org/) databse is used. Database connection details are defined in `src/dist/config/base-service-dev.yml`.
+[PostgreSql](http://www.postgresql.org/) database is used. Database connection details are defined in `src/dist/config/base-service-dev.yml`.
