@@ -2,6 +2,7 @@ apply plugin: 'groovy'
 apply plugin: 'gradle-one-jar'
 apply plugin: 'application'
 apply plugin: 'eclipse'
+apply plugin: 'project-report'
 
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
