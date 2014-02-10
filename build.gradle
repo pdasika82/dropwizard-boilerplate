@@ -6,6 +6,8 @@ apply plugin: 'eclipse'
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
+java.runtime.version=1.7
+
 mainClassName = 'net.snet.base.BaseService'
 
 project.ext {
@@ -50,3 +52,5 @@ task oneJar(type: OneJar) {
 artifacts {
   oneJar
 }
+
+task stage(dependsOn: ['clean', 'oneJar'])
