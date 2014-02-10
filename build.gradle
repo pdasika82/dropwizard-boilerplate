@@ -6,8 +6,6 @@ apply plugin: 'eclipse'
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
-java.runtime.version=1.7
-
 mainClassName = 'net.snet.base.BaseService'
 
 project.ext {
