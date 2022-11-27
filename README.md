@@ -24,7 +24,7 @@ you need to unzip the package and `cd` into it. Then run
 > bin/crm-api server config/base-service-dev.yml
 ```
 
-## Onejar build
+### Onejar build
 
 ```
 > gradlew oneJar
